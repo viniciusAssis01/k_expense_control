@@ -1,0 +1,11 @@
+input:focus{
+    border: 2px solid var(--cinza-4);
+    color: var(--cinza-4);
+    background-color: var(--cinza-1);
+}
+
+select:focus{
+    border: 2px solid var(--cinza-4);
+    color: var(--cinza-4);
+    background-color: var(--cinza-1)
+}

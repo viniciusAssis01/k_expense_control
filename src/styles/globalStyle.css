@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor-primaria: #FD377E;
+    --cor-primaria-2: #E34981;
+    --cor-secundaria:#03B898;
+
+    --cinza-4: #212529;
+    --cinza-3:#868E96;
+    --cinza-2:#E9ECEF;
+    --cinza-1: #F8F9FA;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+

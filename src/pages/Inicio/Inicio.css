@@ -1,0 +1,30 @@
+main {
+  width: 100%;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.section1Esq {
+  width: 100%;
+  margin-bottom: 19px;
+}
+.section2Dir {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+@media (min-width: 1024px) {
+  main {
+    flex-direction: row;
+    gap: 66px;
+    justify-content: center;
+  }
+  .section1Esq {
+    width: 355px;
+  }
+  .section2Dir {
+    width: 560px;
+  }
+}
